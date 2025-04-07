@@ -8,5 +8,9 @@
 
 ### Сервер
 ```bash
-gcc server.c -o server
-./server <порт>
+./src/Prk4_server 8080
+
+### Клиент
+Выполнить в другом терминале
+```bash
+./src/Prk4_client 127.0.0.1 8080

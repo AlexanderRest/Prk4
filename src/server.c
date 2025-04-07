@@ -9,7 +9,7 @@
 void handle_client(int client_socket, struct sockaddr_in client_addr)
 {
     char buffer[BUFFER_SIZE];
-    int number_to_guess = 0 + rand() % 1000 + 1; // Случайное число от 1 до 1000
+    int number_to_guess = 1 + rand() % 1000; // Случайное число от 1 до 1000
     printf("Загаданное число: %d\n", number_to_guess);
     int count_of_attempt = 0;
 
